@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём рождения!</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/zad2.js" defer></script>
+
+<body>
+
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="index.html"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-4">Поздравляю!</span>
+        </a>
+    </header>
+    <div class="container" id="login-page">
+        <form novalidate>
+            <div class="row g-3 mb-5 justify-content-center">
+                <div class="col-md-4">
+                    <form>
+                        <h1 class="my-heading my-5 text-center">Введите ваш ответ для продолжения:</h1>
+
+                        <div>
+                            <label class="form-label" for="promocode">Ответ</label>
+                            <input class="form-control" type="text" id="promocode" autocomplete="off" />
+                            <div class="valid-feedback" id="valid"></div>
+                            <div class="invalid-feedback" id="invalid"></div>
+                        </div>
+                        <button type="button" class="btn btn-primary w-100 mt-5" id="login-button">
+                            Отправить
+                        </button>
+                        <button type="button" class="btn btn-outline-warning d-none" id="sushi"><a href="zad3.html"
+                                class="nav-link active" aria-current="page">Далее</a></button>
+                    </form>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
