@@ -10,10 +10,10 @@ loginButton.addEventListener(`click`, function () {
         promocodeInput.classList.remove(`is-valid`);
         sushiNode.classList.add(`d-none`);
         invalidNode.innerHTML = `Нельзя использовать пустой ответ!`;
-    } else if (promocodeInput.value == `Мультиварка`) {
+    } else if (promocodeInput.value == `Светильник`) {
         promocodeInput.classList.add(`is-valid`);
         promocodeInput.classList.remove(`is-invalid`);
-        validNode.innerHTML = `Молодец, можешь пройти дальше!`;
+        validNode.innerHTML = `Это всё, с днём рождения!`;
         sushiNode.classList.remove(`d-none`);
     } else {
         promocodeInput.classList.add(`is-invalid`);
